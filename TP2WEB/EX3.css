@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+
+.univ{
+    color: white;
+    font-family: gothamThin;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.a{
+    color: white;
+    font-family: gothamLight;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-size: 19px;
+    
+}
+.ensa{
+    color: rgba(220, 220, 220, 0.534);
+    font-family: gothamLight;
+    letter-spacing: -0.1px;
+    font-size: 21px;
+    
+}
+.ah{
+    color: rgba(220, 220, 220, 0.619);
+    font-family: gothamLight;
+    letter-spacing: 1.3px;
+    font-size: 21px;
+}
+.header{  
+    margin-left: auto;
+    position: fixed;
+    width: 80%;
+    top: 20px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    margin-left: 30px;
+    z-index: 100;
+    background-color: #003a6a;
+    left: 80px;
+}
+.logoimg{
+    width: 80px;
+    padding-top: 15px;
+    position: absolute;
+    z-index: 10;
+}
+.logoimg1{
+    width: 100%;
+    padding-top: 15px;
+}
+.logoimg:hover{
+    opacity: 0;
+    transition: 2ms;
+
+}
+a{
+    text-decoration: none;
+    color: rgba(220, 220, 220, 0.534);
+}
+input{
+    color: rgba(220, 220, 220, 0.534);
+    background-color: #003a6a;
+    border-color: rgba(220, 220, 220, 0.534);
+    width: 200px;
+    height: 30px;
+}
+input:focus{
+    box-shadow: none;
+    border-color: rgba(220, 220, 220, 0.534);   
+}
+.navbar{
+    margin-top: 40px;
+    background-color: #004884;
+    width: 80%;
+}
+.active{
+    color:yellow;
+}
+.navbar ul{
+    list-style-type:none ;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar li{
+    float: left;
+    border: 1px solid;
+    border-color: #00569d;
+}
+.navbar li a:hover{
+    color:white;
+}
+
+
+li a{
+    display: inline;
+}
+
+
+
